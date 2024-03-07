@@ -2,7 +2,7 @@ from ReadWriteMemory import *
 from baseAddress import *
 
 # name of the process you want to handle
-PROCESS_NAME = "proccess.exe"
+PROCESS_NAME = "process.exe"
 
 rwm = ReadWriteMemory()
 base_address = BaseAddress(PROCESS_NAME)
